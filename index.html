@@ -6,7 +6,7 @@
     <title>js-dos api</title>
     <style type="text/css">
       .dosbox-container { width: 640px; height: 400px; }
-      .dosbox-container > .dosbox-overlay { background: url(carmen.png); }
+      .dosbox-container > .dosbox-overlay { background: url(doc/carmen.png); }
       .dosbox-start { font-size: 35px !important; }
     </style>
   </head>
@@ -15,12 +15,12 @@
     <br/>
     <button onclick="dosbox.requestFullScreen();">Make fullscreen</button>
     
-    <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
+    <script type="text/javascript" src="js-dos/js-dos-api.js"></script>
     <script type="text/javascript">
       var dosbox = new Dosbox({
         id: "dosbox",
         onload: function (dosbox) {
-          dosbox.run("carm_wde.zip", "./CARMEN.EXE");
+          dosbox.run("roms/carm_wde.zip", "./CARMEN.EXE");
         },
         onrun: function (dosbox, app) {
           console.log("App '" + app + "' is runned");

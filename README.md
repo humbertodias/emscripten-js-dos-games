@@ -34,7 +34,7 @@ open http://localhost:9090
 
 # Output
 
-![Preview](carmen.png)
+![Preview](doc/carmen.png)
 
 
 # Tested Browser

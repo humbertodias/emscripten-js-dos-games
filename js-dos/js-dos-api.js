@@ -97,7 +97,7 @@ function(a,b){jQuery.fn[b]=function(d){return d?this.bind(b,d):this.trigger(b)}}
       this.module.setStatus('Downloading js-dos');
       this.ui.updateMessage('Downloading js-dos');
       // return new Dosbox.Xhr('https://js-dos.com/cdn/js-dos.js', {
-      return new Dosbox.Xhr('js-dos.js', {
+      return new Dosbox.Xhr('js-dos/js-dos.js', {
         success: (function(_this) {
           return function(script) {
             var func;
