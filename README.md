@@ -2,6 +2,10 @@
 
 Play old ms-dos games on your browser
 
+# Prerequires
+
+1. Python
+
 # Run
 
 Clone
@@ -16,10 +20,15 @@ Into
 cd emscripten-js-dos-games/
 ```
 
+Server
+```
+python -m SimpleHTTPServer 9090
+```
+
 Open on your browser
 
 ```
-open index.html
+open http://localhost:9090
 ```
 
 # Output
