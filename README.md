@@ -34,3 +34,14 @@ open http://localhost:9090
 # Output
 
 ![Preview](carmen.png)
+
+
+# Tested Browser
+
+Browser | Performance |
+------------- | -------------
+Firefox | Fast
+Chrome | Fast
+Safari | Slow
+Opera | Normal
+IE | Didn't try
