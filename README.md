@@ -21,6 +21,7 @@ cd emscripten-js-dos-games/
 ```
 
 Server
+
 ```
 python -m SimpleHTTPServer 9090
 ```
@@ -45,3 +46,14 @@ Chrome | Fast
 Safari | Slow
 Opera | Normal
 IE | Didn't try
+
+
+# References
+
+1. Emscripten
+
+	[http://kripken.github.io/emscripten-site/](http://kripken.github.io/emscripten-site/)
+	
+2. js-dos
+
+	[http://js-dos.com/games/](http://js-dos.com/games/)
