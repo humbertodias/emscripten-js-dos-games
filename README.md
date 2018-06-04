@@ -2,6 +2,8 @@
 
 Play old ms-dos games on your browser
 
+[Play](http://humbertodias.github.io/emscripten-js-dos-games)
+
 # Prerequires
 
 1. Python
